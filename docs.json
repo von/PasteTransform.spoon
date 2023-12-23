@@ -1,0 +1,352 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+      {
+        "name" : "defaultScriptPath",
+        "stripped_doc" : [
+          "Default path for transformation scripts: $HOME\/.paste-transform\/"
+        ],
+        "doc" : "Default path for transformation scripts: $HOME\/.paste-transform\/",
+        "desc" : "Default path for transformation scripts: $HOME\/.paste-transform\/",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform.defaultScriptPath",
+        "type" : "Variable",
+        "returns" : [
+
+        ],
+        "def" : "PasteTransform.defaultScriptPath",
+        "parameters" : [
+
+        ]
+      }
+    ],
+    "stripped_doc" : [
+
+    ],
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "desc" : "a script selected by the user.",
+    "Constructor" : [
+
+    ],
+    "doc" : "Allow the contents of the pasteboard to be transformed using\na script selected by the user.\n\nThe script takes the contents on stdio and returns the transformed\ncontents on stdout.",
+    "Method" : [
+      {
+        "name" : "init",
+        "stripped_doc" : [
+          "Initializes the PasteTransform spoon.",
+          ""
+        ],
+        "doc" : "Initializes the PasteTransform spoon.\n\nParameters:\n * None\n\nReturns:\n * PasteTransform object",
+        "desc" : "Initializes the PasteTransform spoon.",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:init()",
+        "type" : "Method",
+        "returns" : [
+          " * PasteTransform object"
+        ],
+        "def" : "PasteTransform:init()",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "name" : "debug",
+        "stripped_doc" : [
+          "Enable or disable debugging",
+          ""
+        ],
+        "doc" : "Enable or disable debugging\n\nParameters:\n * enable - Boolean indicating whether debugging should be on\n\nReturns:\n * Nothing",
+        "desc" : "Enable or disable debugging",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:debug()",
+        "type" : "Method",
+        "returns" : [
+          " * Nothing"
+        ],
+        "def" : "PasteTransform:debug()",
+        "parameters" : [
+          " * enable - Boolean indicating whether debugging should be on",
+          ""
+        ]
+      },
+      {
+        "name" : "transformChooser",
+        "stripped_doc" : [
+          "Present user with selection of transformation scripts in a chooser menu",
+          "so they can select one and then perform the transformation on the",
+          "pastebuffer using the selected script.",
+          ""
+        ],
+        "doc" : "Present user with selection of transformation scripts in a chooser menu\nso they can select one and then perform the transformation on the\npastebuffer using the selected script.\n\nParameters:\n* Nothing\n\nReturns:\n* Nothing",
+        "desc" : "Present user with selection of transformation scripts in a chooser menu",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:transformChooser()",
+        "type" : "Method",
+        "returns" : [
+          "* Nothing"
+        ],
+        "def" : "PasteTransform:transformChooser()",
+        "parameters" : [
+          "* Nothing",
+          ""
+        ]
+      },
+      {
+        "name" : "transform",
+        "stripped_doc" : [
+          "Transform pastebuffer using script at given path.",
+          "Callback for chooser.",
+          ""
+        ],
+        "doc" : "Transform pastebuffer using script at given path.\nCallback for chooser.\n\nParameters:\n* Path to transformation script\n\nReturns:\n* Nothing",
+        "desc" : "Transform pastebuffer using script at given path.",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:transform()",
+        "type" : "Method",
+        "returns" : [
+          "* Nothing"
+        ],
+        "def" : "PasteTransform:transform()",
+        "parameters" : [
+          "* Path to transformation script",
+          ""
+        ]
+      },
+      {
+        "name" : "transformRepeat",
+        "stripped_doc" : [
+          "Repeat the last transformation on the current pastebuffer.",
+          "",
+          ""
+        ],
+        "doc" : "Repeat the last transformation on the current pastebuffer.\n\n\nParameters:\n * None\n\nReturns:\n * Nothing",
+        "desc" : "Repeat the last transformation on the current pastebuffer.",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:transformRepeat()",
+        "type" : "Method",
+        "returns" : [
+          " * Nothing"
+        ],
+        "def" : "PasteTransform:transformRepeat()",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "name" : "edit",
+        "stripped_doc" : [
+          "Edit the pastbuffer using scripts\/edit.sh",
+          "Uses MacVim by default.",
+          ""
+        ],
+        "doc" : "Edit the pastbuffer using scripts\/edit.sh\nUses MacVim by default.\n\nParameters:\n * None\n\nReturns:\n * Nothing",
+        "desc" : "Edit the pastbuffer using scripts\/edit.sh",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:edit()",
+        "type" : "Method",
+        "returns" : [
+          " * Nothing"
+        ],
+        "def" : "PasteTransform:edit()",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      }
+    ],
+    "Command" : [
+
+    ],
+    "Field" : [
+
+    ],
+    "items" : [
+      {
+        "name" : "defaultScriptPath",
+        "stripped_doc" : [
+          "Default path for transformation scripts: $HOME\/.paste-transform\/"
+        ],
+        "doc" : "Default path for transformation scripts: $HOME\/.paste-transform\/",
+        "desc" : "Default path for transformation scripts: $HOME\/.paste-transform\/",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform.defaultScriptPath",
+        "type" : "Variable",
+        "returns" : [
+
+        ],
+        "def" : "PasteTransform.defaultScriptPath",
+        "parameters" : [
+
+        ]
+      },
+      {
+        "name" : "debug",
+        "stripped_doc" : [
+          "Enable or disable debugging",
+          ""
+        ],
+        "doc" : "Enable or disable debugging\n\nParameters:\n * enable - Boolean indicating whether debugging should be on\n\nReturns:\n * Nothing",
+        "desc" : "Enable or disable debugging",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:debug()",
+        "type" : "Method",
+        "returns" : [
+          " * Nothing"
+        ],
+        "def" : "PasteTransform:debug()",
+        "parameters" : [
+          " * enable - Boolean indicating whether debugging should be on",
+          ""
+        ]
+      },
+      {
+        "name" : "edit",
+        "stripped_doc" : [
+          "Edit the pastbuffer using scripts\/edit.sh",
+          "Uses MacVim by default.",
+          ""
+        ],
+        "doc" : "Edit the pastbuffer using scripts\/edit.sh\nUses MacVim by default.\n\nParameters:\n * None\n\nReturns:\n * Nothing",
+        "desc" : "Edit the pastbuffer using scripts\/edit.sh",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:edit()",
+        "type" : "Method",
+        "returns" : [
+          " * Nothing"
+        ],
+        "def" : "PasteTransform:edit()",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "name" : "init",
+        "stripped_doc" : [
+          "Initializes the PasteTransform spoon.",
+          ""
+        ],
+        "doc" : "Initializes the PasteTransform spoon.\n\nParameters:\n * None\n\nReturns:\n * PasteTransform object",
+        "desc" : "Initializes the PasteTransform spoon.",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:init()",
+        "type" : "Method",
+        "returns" : [
+          " * PasteTransform object"
+        ],
+        "def" : "PasteTransform:init()",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "name" : "transform",
+        "stripped_doc" : [
+          "Transform pastebuffer using script at given path.",
+          "Callback for chooser.",
+          ""
+        ],
+        "doc" : "Transform pastebuffer using script at given path.\nCallback for chooser.\n\nParameters:\n* Path to transformation script\n\nReturns:\n* Nothing",
+        "desc" : "Transform pastebuffer using script at given path.",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:transform()",
+        "type" : "Method",
+        "returns" : [
+          "* Nothing"
+        ],
+        "def" : "PasteTransform:transform()",
+        "parameters" : [
+          "* Path to transformation script",
+          ""
+        ]
+      },
+      {
+        "name" : "transformChooser",
+        "stripped_doc" : [
+          "Present user with selection of transformation scripts in a chooser menu",
+          "so they can select one and then perform the transformation on the",
+          "pastebuffer using the selected script.",
+          ""
+        ],
+        "doc" : "Present user with selection of transformation scripts in a chooser menu\nso they can select one and then perform the transformation on the\npastebuffer using the selected script.\n\nParameters:\n* Nothing\n\nReturns:\n* Nothing",
+        "desc" : "Present user with selection of transformation scripts in a chooser menu",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:transformChooser()",
+        "type" : "Method",
+        "returns" : [
+          "* Nothing"
+        ],
+        "def" : "PasteTransform:transformChooser()",
+        "parameters" : [
+          "* Nothing",
+          ""
+        ]
+      },
+      {
+        "name" : "transformRepeat",
+        "stripped_doc" : [
+          "Repeat the last transformation on the current pastebuffer.",
+          "",
+          ""
+        ],
+        "doc" : "Repeat the last transformation on the current pastebuffer.\n\n\nParameters:\n * None\n\nReturns:\n * Nothing",
+        "desc" : "Repeat the last transformation on the current pastebuffer.",
+        "notes" : [
+
+        ],
+        "signature" : "PasteTransform:transformRepeat()",
+        "type" : "Method",
+        "returns" : [
+          " * Nothing"
+        ],
+        "def" : "PasteTransform:transformRepeat()",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      }
+    ],
+    "name" : "PasteTransform"
+  }
+]
